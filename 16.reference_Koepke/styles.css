@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-image: url('Images/luteCat.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    background-color: rgba(204, 85, 0, 0.4); /* Increased transparency */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.textbox p {
+    font-size: 1.5em;
+    font-style: italic;
+}
